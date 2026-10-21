@@ -1,0 +1,202 @@
+{
+  "scope": "10 finite abstract development diagnostics, not physical regrading",
+  "metrics": {
+    "dimension": {
+      "false_safe": 0,
+      "false_unsafe": 0,
+      "unknown": 10,
+      "correct_decisions": 0,
+      "total": 10
+    },
+    "generic_ast": {
+      "false_safe": 0,
+      "false_unsafe": 0,
+      "unknown": 2,
+      "correct_decisions": 8,
+      "total": 10
+    },
+    "pg": {
+      "false_safe": 0,
+      "false_unsafe": 0,
+      "unknown": 2,
+      "correct_decisions": 8,
+      "total": 10
+    }
+  },
+  "cases": [
+    {
+      "id": "role_drop",
+      "inspiration": "M001",
+      "reference": "unsafe",
+      "predictions": {
+        "dimension": "unknown",
+        "generic_ast": "unsafe",
+        "pg": "unsafe"
+      },
+      "witness": {
+        "left": {
+          "source": 0,
+          "target": 0
+        },
+        "right": {
+          "source": 0,
+          "target": 1
+        },
+        "retained": [
+          0
+        ],
+        "answers": [
+          0,
+          -1
+        ]
+      }
+    },
+    {
+      "id": "role_reorder",
+      "inspiration": "M001",
+      "reference": "safe",
+      "predictions": {
+        "dimension": "unknown",
+        "generic_ast": "safe",
+        "pg": "safe"
+      },
+      "witness": null
+    },
+    {
+      "id": "constraint_drop",
+      "inspiration": "M003",
+      "reference": "unsafe",
+      "predictions": {
+        "dimension": "unknown",
+        "generic_ast": "unsafe",
+        "pg": "unsafe"
+      },
+      "witness": {
+        "left": {
+          "state": 0,
+          "branch": 0
+        },
+        "right": {
+          "state": 0,
+          "branch": 1
+        },
+        "retained": [
+          0
+        ],
+        "answers": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "constraint_reorder",
+      "inspiration": "M003",
+      "reference": "safe",
+      "predictions": {
+        "dimension": "unknown",
+        "generic_ast": "safe",
+        "pg": "safe"
+      },
+      "witness": null
+    },
+    {
+      "id": "observer_drop",
+      "inspiration": "M013",
+      "reference": "unsafe",
+      "predictions": {
+        "dimension": "unknown",
+        "generic_ast": "unsafe",
+        "pg": "unsafe"
+      },
+      "witness": {
+        "left": {
+          "body": 0,
+          "observer": 0
+        },
+        "right": {
+          "body": 0,
+          "observer": 1
+        },
+        "retained": [
+          0
+        ],
+        "answers": [
+          0,
+          -1
+        ]
+      }
+    },
+    {
+      "id": "observer_reorder",
+      "inspiration": "M013",
+      "reference": "safe",
+      "predictions": {
+        "dimension": "unknown",
+        "generic_ast": "safe",
+        "pg": "safe"
+      },
+      "witness": null
+    },
+    {
+      "id": "history_drop",
+      "inspiration": "M007",
+      "reference": "unsafe",
+      "predictions": {
+        "dimension": "unknown",
+        "generic_ast": "unsafe",
+        "pg": "unsafe"
+      },
+      "witness": {
+        "left": {
+          "present": 0,
+          "memory": 0
+        },
+        "right": {
+          "present": 0,
+          "memory": 1
+        },
+        "retained": [
+          0
+        ],
+        "answers": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "history_reorder",
+      "inspiration": "M007",
+      "reference": "safe",
+      "predictions": {
+        "dimension": "unknown",
+        "generic_ast": "safe",
+        "pg": "safe"
+      },
+      "witness": null
+    },
+    {
+      "id": "invertible_mix",
+      "inspiration": "mathematical control",
+      "reference": "safe",
+      "predictions": {
+        "dimension": "unknown",
+        "generic_ast": "unknown",
+        "pg": "unknown"
+      },
+      "witness": null
+    },
+    {
+      "id": "cancellation",
+      "inspiration": "mathematical control",
+      "reference": "safe",
+      "predictions": {
+        "dimension": "unknown",
+        "generic_ast": "unknown",
+        "pg": "unknown"
+      },
+      "witness": null
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-10",
+  "scope": "Six two-state diagnostics from supplied M001/M003 fixtures",
+  "status": "executed",
+  "cases": [
+    {"id": "M001_drive_role", "generic": "unsafe", "pg": "unsafe", "oracle": "unsafe", "answers": ["B", "A"]},
+    {"id": "M001_reciprocal_value", "generic": "safe", "pg": "safe", "oracle": "safe"},
+    {"id": "M001_full_record", "generic": "safe", "pg": "safe", "oracle": "safe"},
+    {"id": "M003_condition_erased", "generic": "unsafe", "pg": "unsafe", "oracle": "unsafe", "answers": ["1", "3/5"]},
+    {"id": "M003_full_record", "generic": "safe", "pg": "safe", "oracle": "safe"},
+    {"id": "M003_condition_reordered", "generic": "safe", "pg": "safe", "oracle": "safe"}
+  ],
+  "counts": {"safe": 4, "unsafe": 2, "generic_pg_agreement": 6, "oracle_agreement": 6},
+  "input_boundary": {"malformed_records_rejected": 3},
+  "limits": ["finite supplied fixtures only", "shared evaluator and model values", "no continuous-domain or general type inference", "no independent physical review"]
+}

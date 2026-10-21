@@ -68,7 +68,7 @@ already seen marked as development cases.
   expected decisions, a blank answer form) and the returned forms.
 - Needs a person other than the author. Choosing and asking the reviewer is Isaac's step.
 - Done when: at least one external review is returned for the Step 3 cases and for the E2/E3 grades
-  of M010, M012 and M018 (the E2 cases in batches 1 and 5), and disagreements are listed, not
+  of M004, M010, M012 and M018 (the cases graded E2 so far), and disagreements are listed, not
   resolved silently.
 
 ## Step 6. Re-run on unseen cases (item 4)

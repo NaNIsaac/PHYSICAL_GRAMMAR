@@ -2,6 +2,8 @@
 
 **Purpose:** preserve the intellectual map needed to restart the project without the source chats. Verify bibliographic details against primary sources before publication.
 
+**Checked 2026-10-23** against publisher or catalogue records (title, authors, venue, year, DOI or arXiv id): OM (Rijgersberg et al.), Atkey et al., Petricek et al., Fong & Spivak, Flater, and the SI Brochure version note in section 3. Not checked: Fillmore, Goldberg, Green et al., and the descriptions of QUDT, BFO/OntoCAPE, Modelica, FMI and OpenMath. A check of a record confirms that the paper exists as cited, not that this document describes its content correctly.
+
 ## 1. Project evolution
 
 Original motivation came from linguistic grammar and physical-quantity naming: treat physical quantity expressions like sentences whose semantic roles, arguments, modifiers and omitted context can be parsed. The early Quantity Semantics Framework (QSF) focused on quantity vocabulary and naming. Physical Grammar (PG) emerged as the deeper layer required to represent grounding and composition before naming.
@@ -31,7 +33,7 @@ Key references to retain: Charles Fillmore, **Frame Semantics** (1982); Adele Go
 ## 3. Metrology and quantity ontologies
 
 ### BIPM SI / VIM
-Retain strict separation of Quantity, Quantity Value, numerical quantity value, measurand and measurement result. SI unit-one practice already exposes semantic pressure points: Hz versus Bq, Gy versus Sv, rad/sr, explicit ratio units, percent/ppm. Current project note: SI Brochure 9th edition was revised in 2026; verify exact current version when citing. VIM4 was still in development during this project snapshot.
+Retain strict separation of Quantity, Quantity Value, numerical quantity value, measurand and measurement result. SI unit-one practice already exposes semantic pressure points: Hz versus Bq, Gy versus Sv, rad/sr, explicit ratio units, percent/ppm. Current project note: the SI Brochure is still the 9th edition (2019), with version updates; the BIPM listing showed version 4.01 (June 2026) when checked on 2026-10-23, and a Japanese translation dates the same version August 2026. Cite the version you use. VIM4 was still in development during this project snapshot.
 
 ### QUDT
 QUDT explicitly separates Quantity/QuantityKind/Unit/dimension vector and recognizes quantities associated with objects/events/systems as properties. Therefore PG must **not** claim that existing systems know only number+unit or that quantity kind ≠ dimension is novel. PG's target difference is compositional grounding genealogy and controlled semantic loss.
@@ -62,11 +64,11 @@ Green, Karvounarakis & Tannen (2007) provenance semirings and later fine-grained
 Projection safety is structurally analogous to information-flow reasoning: a downstream query must not depend on discarded information. This is precedent/analogy, not a claim of new factorization mathematics.
 
 ### Applied Category Theory
-Fong & Spivak, *An Invitation to Applied Category Theory* / *Seven Sketches in Compositionality* (arXiv `1803.05316`) provides compositional-system precedents. ACT asks how systems/processes compose; PG's characteristic question is what the resulting physical expression remains **about**. PG may admit categorical semantics but should not be defined by category theory.
+Fong & Spivak, *Seven Sketches in Compositionality: An Invitation to Applied Category Theory* (arXiv `1803.05316`) provides compositional-system precedents. ACT asks how systems/processes compose; PG's characteristic question is what the resulting physical expression remains **about**. PG may admit categorical semantics but should not be defined by category theory.
 
 ## 6. Count and unit-one quantities
 
-David Flater (2023), “Dealing with counts and other quantal quantities in quantity calculus” (Measurement/NIST context), is relevant to count/quantal quantities and the limitations of purely continuous quantity calculus. This supports treating Count as a useful distinction in some views without committing to a universal replacement dimension ontology.
+David Flater (2023), “Dealing with counts and other quantal quantities in quantity calculus” (*Measurement* 206, DOI `10.1016/j.measurement.2022.112226`), is relevant to count/quantal quantities and the limitations of purely continuous quantity calculus. This supports treating Count as a useful distinction in some views without committing to a universal replacement dimension ontology.
 
 ## 7. Modelica / FMI / OpenMath
 

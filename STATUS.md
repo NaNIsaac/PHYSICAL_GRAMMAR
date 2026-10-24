@@ -1,5 +1,13 @@
 # Physical Grammar — Current Status
 
+## Repository audit (2026-10-23)
+
+[Audit](research/AUDIT_2026-10-23.md): lineage, frozen/provisional index, case index and
+open problems, gathered from the existing files. All eight pgcheck scripts reran on
+Python 3.14.5 and 3.10: 159 checks passed and both matched-comparison ledgers were
+reproduced. `tests/test_pgcheck.py` now pins those numbers. No result, grade or kernel
+text changed.
+
 ## Latest continuation — M001/M003 model fixtures (2026-09-10)
 
 [Matched model fixtures 02](research/MATCHED_MODELS_02.md) adds six finite queries

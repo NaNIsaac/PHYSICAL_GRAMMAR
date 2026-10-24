@@ -4,6 +4,18 @@
 **Status:** v0.4 grammar kernel retained; v0.5 adds post-freeze analysis/meta documentation.  
 **Lineage:** physical-quantity naming / QSF → Physical Grammar → semantic parse → quantity semantics → naming/rendering.
 
+## 2026-10-25 research continuation
+
+The historical v0.4 kernel and v0.5/M4 evidence remain unchanged. Later project work has moved toward a **federation of small semantic calculi** rather than silently expanding the frozen kernel.
+
+For the current research state, read:
+
+- [research/CONTINUATION_2026-10-25.md](research/CONTINUATION_2026-10-25.md) — current thesis, Physical Feature working umbrella, R/T/C/A/G/D/K/M/X architecture, renaming tests, process/restriction candidates, and practical examples.
+- [research/NOMENCLATURE_REGISTRY_2026-10-25.md](research/NOMENCLATURE_REGISTRY_2026-10-25.md) — downstream naming, semantic identity, proposal/registry/lifecycle/provenance design.
+- [research/POST_V05_STRUCTURAL_TRIALS_2026-10-25.md](research/POST_V05_STRUCTURAL_TRIALS_2026-10-25.md) — conversation-derived structural/interface/condition/process trial summaries that still require repository-native reproduction.
+
+**Compatibility rule:** these files are Working/Candidate continuation documents. They do not retroactively change the v0.4 specification or re-grade BB1/M4.
+
 ## What this package is
 
 This is the self-contained restart package for the Physical Grammar / 물리량 명명학 project. It intentionally preserves the **v0.4 core grammar** rather than silently promoting ideas discovered during calibration. The new v0.5 documents capture the post-v0.4 discussions needed to delete the source chats/intermediate notes without losing the project state.

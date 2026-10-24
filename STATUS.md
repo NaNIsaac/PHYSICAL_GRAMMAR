@@ -7,6 +7,7 @@ Post-v0.5 project work has been merged as a **working research continuation**, n
 - [Current continuation](research/CONTINUATION_2026-10-25.md): reopens Physical Feature as an analysis-level semantic umbrella; separates referential structure, physical typing, construction, abstraction/scope, geometry, process, restriction, semantic identity, realization and nomenclature into candidate cooperating modules.
 - [Nomenclature/registry](research/NOMENCLATURE_REGISTRY_2026-10-25.md): records identity-vs-name separation, proposal/registration/lifecycle/provenance concepts, alias policy and semantic-linter direction.
 - [Structural trials](research/POST_V05_STRUCTURAL_TRIALS_2026-10-25.md): records later renaming/interface/condition/process trial summaries with an explicit warning that they have not yet been reconstructed as repository-native evidence.
+- [Project conversation synthesis](research/PROJECT_CONVERSATION_SYNTHESIS_2026-10-25.md): consolidates the three project conversations and resolves the later G0–G3 naming collision by recording those semantic-dependence strata as SD0–SD3.
 
 **Kernel status remains v0.4 frozen.** No BB1/M4 grade or pgcheck result is changed by this continuation. The next theory-changing step is to reproduce the later trials in the repository and decide whether any repeated failure justifies a new kernel version.
 

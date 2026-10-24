@@ -13,6 +13,7 @@ For the current research state, read:
 - [research/CONTINUATION_2026-10-25.md](research/CONTINUATION_2026-10-25.md) — current thesis, Physical Feature working umbrella, R/T/C/A/G/D/K/M/X architecture, renaming tests, process/restriction candidates, and practical examples.
 - [research/NOMENCLATURE_REGISTRY_2026-10-25.md](research/NOMENCLATURE_REGISTRY_2026-10-25.md) — downstream naming, semantic identity, proposal/registry/lifecycle/provenance design.
 - [research/POST_V05_STRUCTURAL_TRIALS_2026-10-25.md](research/POST_V05_STRUCTURAL_TRIALS_2026-10-25.md) — conversation-derived structural/interface/condition/process trial summaries that still require repository-native reproduction.
+- [research/PROJECT_CONVERSATION_SYNTHESIS_2026-10-25.md](research/PROJECT_CONVERSATION_SYNTHESIS_2026-10-25.md) — consolidated record of the three project conversations: problem framing, density/concentration/fraction examples, SFLP/type-theory influences, SD0–SD3 terminology repair, federation architecture, nomenclature/identity work, and communication decisions.
 
 **Compatibility rule:** these files are Working/Candidate continuation documents. They do not retroactively change the v0.4 specification or re-grade BB1/M4.
 

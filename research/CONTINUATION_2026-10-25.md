@@ -113,6 +113,33 @@ The intended lesson is not “physics can be made substance-free.” Rather:
 
 The working design principle is therefore **substance-minimal grammar with explicitly grounded physics**, not substance-free physics.
 
+## 5.1 Formal inspirations and architecture lessons
+
+The later conversations compared PG with several field-independent formalisms, not to import them wholesale but to isolate reusable design lessons.
+
+- **Institution-style abstraction:** define stable interfaces rather than one universal domain language.
+- **Typed lambda calculus / type theory:** separate application, binding, composition, and well-formedness from full physical interpretation.
+- **Operads / PROPs and compositional systems:** model typed input/output composition while supplying concrete semantics separately.
+- **Process algebra:** allow behavioral/process structure to form its own reusable calculus.
+- **Abstract interpretation:** treat abstraction, information loss, and downstream soundness as explicit questions.
+
+The resulting hypothesis is a **federation of narrow calculi**, not a single all-purpose ontology.
+
+The conversations also used three diagnostic tests:
+
+- **Renaming Test** — erase vocabulary progressively and ask what structure survives.
+- **Realization Test** — separate a target feature from measurement/inference/simulation routes.
+- **Minimal-Operations Test** — attempt reduction to a small operation basis before adding primitives.
+
+A later conversation temporarily called semantic-dependence strata `G0–G3`; this conflicts with the repository's established G0–G4 reducibility grades. The continuation therefore uses:
+
+- **SD0** structural;
+- **SD1** physically typed;
+- **SD2** semantically grounded;
+- **SD3** realization dependent.
+
+See [PROJECT_CONVERSATION_SYNTHESIS_2026-10-25.md](PROJECT_CONVERSATION_SYNTHESIS_2026-10-25.md) for the full conversation-derived record.
+
 ## 6. Candidate minimal operations
 
 Post-v0.5 work has explored a small reusable operation basis:

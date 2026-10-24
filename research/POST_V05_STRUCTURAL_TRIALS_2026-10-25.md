@@ -8,10 +8,17 @@ Reported scope: 18 examples.
 
 Working observations:
 
-- lexical renaming preserved the analyzed structure in all reported cases;
-- domain erasure with signatures retained remained analyzable in all reported cases;
-- weakening rich types to a generic Feature-like type preserved only a minority of operation judgments;
+- R0 lexical renaming: 18/18 reported cases retained analyzability;
+- R1 domain erasure with signatures retained: 18/18 retained analyzability;
+- R2 weakening rich types to a generic Feature-like type: 5/18 retained the relevant operation judgment;
 - division, differentiation, integration, geometry and measure-sensitive operations typically required richer typing.
+
+The conversations also used a four-level semantic-dependence classification. Because `G0–G3` would collide with the repository's established G0–G4 reducibility grades, this repository records it as:
+
+- `SD0` structural;
+- `SD1` physically typed;
+- `SD2` semantically grounded;
+- `SD3` realization dependent.
 
 Interpretation:
 
@@ -25,14 +32,16 @@ Reported scope: 20 cases plus 6 adversarial pairs.
 
 Working module-use pattern:
 
-- Referential structure was needed in most cases.
-- Physical typing was needed in all cases.
-- Construction was frequent but not universal.
-- Abstraction/Scope was selective.
-- Grounded semantics was required for final physical identity/interpretation.
-- Geometry appeared often enough to look like an independent provider.
-- Realization/measurement appeared only when operational semantics were actually at issue.
-- Nomenclature was downstream and sparse.
+- R — Referential: 18/20
+- T — Physical Type: 20/20
+- C — Construction: 13/20
+- A — Abstraction/Scope: 6/20
+- S — grounded semantic interpretation: 20/20
+- G — Geometry: 9/20
+- M — Realization/Measurement: 1/20
+- X — Nomenclature/Expression: 3/20
+
+These counts were reported in conversation and are not yet repository-native evidence.
 
 Important adversarial pairs included:
 

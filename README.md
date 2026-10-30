@@ -4,6 +4,12 @@
 **Status:** v0.4 grammar kernel retained; v0.5 adds post-freeze analysis/meta documentation.  
 **Lineage:** physical-quantity naming / QSF → Physical Grammar → semantic parse → quantity semantics → naming/rendering.
 
+## Status at a glance
+
+![Physical Grammar frozen v0.4 kernel and historical evidence contrasted with working research proposals and nomenclature projection](docs/media/readme-research-status.svg)
+
+*Conceptual map, not a formal promotion of any Working/Candidate architecture into the frozen grammar.*
+
 ## 2026-10-25 research continuation
 
 The historical v0.4 kernel and v0.5/M4 evidence remain unchanged. Later project work has moved toward a **federation of small semantic calculi** rather than silently expanding the frozen kernel.

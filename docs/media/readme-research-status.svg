@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="545" viewBox="0 0 1200 545" role="img" aria-labelledby="title description"><title id="title">Physical Grammar project status and naming projection</title><desc id="description">Frozen v0.4 grammar kernel and historical benchmark evidence remain separate from working post-v0.5 semantic-calculi and nomenclature proposals. Semantic identity is richer than its surface label or symbol.</desc>
+<rect x="0" y="0" width="1200" height="545" rx="17" fill="#f8fafc" stroke="#f8fafc" stroke-width="2" />
+<text x="34" y="54" font-family="Arial, sans-serif" font-size="29" fill="#123b5a" font-weight="700">Physical Grammar / preserving the kernel, exploring extensions</text>
+<text x="34" y="84" font-family="Arial, sans-serif" font-size="18" fill="#55738a" font-weight="400">Research lineage and status, not a claim that the proposals are implemented grammar rules.</text>
+<rect x="34" y="120" width="530" height="252" rx="17" fill="#ffffff" stroke="#9fc6b7" stroke-width="2" />
+<rect x="53" y="137" width="170" height="37" rx="17" fill="#e1f3eb" stroke="#e1f3eb" stroke-width="2" />
+<text x="67" y="164" font-family="Arial, sans-serif" font-size="16" fill="#267350" font-weight="700">FROZEN / EVIDENCE</text>
+<text x="55" y="211" font-family="Arial, sans-serif" font-size="24" fill="#174f69" font-weight="700">v0.4 grammar kernel</text>
+<text x="55" y="250" font-family="Arial, sans-serif" font-size="19" fill="#21425c" font-weight="400">Canonical grammar specification</text>
+<text x="55" y="289" font-family="Arial, sans-serif" font-size="19" fill="#21425c" font-weight="400">Projection &amp; equivalence checks</text>
+<text x="55" y="329" font-family="Arial, sans-serif" font-size="18" fill="#21425c" font-weight="400">Historical BB1 / M4 / pgcheck records</text>
+<rect x="635" y="120" width="529" height="252" rx="17" fill="#ffffff" stroke="#deb887" stroke-width="2" stroke-dasharray="10,7"/>
+<rect x="654" y="137" width="180" height="37" rx="17" fill="#fff0d8" stroke="#fff0d8" stroke-width="2" />
+<text x="670" y="164" font-family="Arial, sans-serif" font-size="16" fill="#8b612d" font-weight="700">WORKING / CANDIDATE</text>
+<text x="655" y="211" font-family="Arial, sans-serif" font-size="24" fill="#174f69" font-weight="700">Post-v0.5 research</text>
+<text x="655" y="250" font-family="Arial, sans-serif" font-size="19" fill="#21425c" font-weight="400">Physical Feature (umbrella hypothesis)</text>
+<text x="655" y="289" font-family="Arial, sans-serif" font-size="19" fill="#21425c" font-weight="400">Federation of small semantic calculi</text>
+<text x="655" y="329" font-family="Arial, sans-serif" font-size="19" fill="#21425c" font-weight="400">Nomenclature + identity registry</text>
+<path d="M574 245 H625 l-13 -10 m13 10 l-13 10" stroke="#7795aa" fill="none" stroke-width="3" stroke-dasharray="7,5"/>
+<rect x="34" y="404" width="1130" height="105" rx="17" fill="#1a354a" stroke="#1a354a" stroke-width="2" />
+<text x="57" y="439" font-family="Arial, sans-serif" font-size="21" fill="#e5f3fa" font-weight="600">Physical meaning  →  semantic structure  →  naming projection  →  surface label</text>
+<text x="57" y="476" font-family="Arial, sans-serif" font-size="18" fill="#f0cc8b" font-weight="500">Concept identity is NOT the same as a label, symbol, unit or descriptor.</text>
+<text x="34" y="535" font-family="Arial, sans-serif" font-size="15" fill="#5e7d96" font-weight="400">Working ideas require new decisions and validation; they do not retroactively rewrite v0.4.</text>
+</svg>
